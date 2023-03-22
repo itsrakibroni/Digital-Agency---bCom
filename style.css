@@ -1,0 +1,193 @@
+/*FONT AREA START*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    overflow-y: scroll;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/*<!--=======================================================-->    
+  <!-- HEADER AREA CSS START -->
+  <!--=======================================================--> */
+.header-main-area {
+    background: none;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    transition: 1s;
+}
+
+body:hover .header-main-area{
+    background: #306C62;
+}
+
+/* HEADER LOGO CSS */
+.header-logo{
+    text-align: left;
+}
+
+.header-logo a img{
+    width: 140px;
+    height: 40px;
+}
+
+/* HEADER MAIN MENU CSS */
+.header-main-menu{
+    text-align: center;
+}
+
+.header-main-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-main-menu ul li{
+    display: inline-block;
+    padding: 0;
+}
+
+.header-main-menu ul li a{
+    text-decoration: none;
+    padding: 30px 26px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.5s;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header-main-menu ul li a:hover{
+    color: #F8B401;
+}
+
+li#home a{
+    color: #F8B401;
+}
+
+.header-main-menu ul li a i {
+    position: relative;
+    left: 5px;
+    top: 0px;
+    font-size: 13px;
+}
+
+/* HEADER RIGHT BTN CSS */
+.header-right-btn{
+    text-align: right;
+}
+
+.header-right-btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background: #F8B401;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 30px;
+    border-radius: 100px;
+    border: 2px solid #F8B401;
+    transition: 0.5s;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header-right-btn a:hover{
+    background: #fff;
+}
+
+/*<!--=======================================================-->    
+  <!-- HERO SECTION AREA START -->
+  <!--=======================================================--> */
+.hero-section-area{
+    background-image: url(assets/images/banner-111.jpg);
+    width: 100%;
+    height: 898px;
+}
+
+/* HERO SECTION INFO CSS */
+.hero-section-info h5{
+    color: #F8B401;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.hero-section-info h1 {
+    color: #fff;
+    font-size: 83px;
+    font-weight: 600;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 87px;
+    margin: 28px 0;
+}
+
+.hero-section-info p {
+    color: #ffffffd9;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+    width: 85%;
+    margin: 0;
+}
+
+/* HERO SECTION BTN CSS */
+.hero-section-btn {
+    margin: 45px 0;
+}
+
+a.hero-section-main-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background: #F8B401;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 30px;
+    border-radius: 100px;
+    border: 2px solid #F8B401;
+    transition: 0.5s;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+a.hero-section-main-btn:hover{
+    background: #fff;
+}
+
+a.hero-section-main-btn i{
+    position: relative;
+    margin-left: 30px;
+}
+
+/* HERO SECTION DIAL BTN CSS */
+a.hero-section-dial-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hero-section-dial-btn i {
+    display: inline-block;
+    text-align: center;
+    color: #333;
+    background: #F8B401;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    line-height: 40px;
+    border: 1px solid #F8B401;
+    transition: 0.5s;
+    margin: 0 10px 0 17px;
+}
+
+.hero-section-dial-btn span {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.hero-section-dial-btn:hover i{
+    background: #fff;
+}
